@@ -48,7 +48,7 @@ export interface iNavSetup {
   type: NavbarType,
   navLinks: iNavLink[];
   sideNavLinks: iNavLink[];
-  socials: iNavSocials[];
+  //socials: iNavSocials[];
   logo: iNavLogo;
 }
 

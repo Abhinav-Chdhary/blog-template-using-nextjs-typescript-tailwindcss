@@ -22,7 +22,22 @@ import { AiFillGithub, AiOutlineTwitter, AiFillLinkedin, AiFillInstagram, AiFill
     ]
 }
  */
-
+export const AUTHOR_NAME: IAuthor = {
+    name: "Abhinav Choudhary",
+    designation: "Student",
+    bio: "Condensing fact from the vapor of nuance.",
+    profilePic: "",
+     social: [
+        {
+            icon: <AiFillGithub />,
+            link: 'https://github.com/Abhinav-Chdhary'
+        },
+        {
+            icon: <AiFillLinkedin />,
+            link: 'https://www.linkedin.com/in/abhinavchdhary/'
+        },
+    ]
+}
 export const MAYUR: IAuthor = {
     name: "Mayur Nalwala",
     designation: "Software Engineer",
@@ -59,7 +74,7 @@ export const RUPALI: IAuthor = {
 
 
 // This can your company name / your name etc for SEO purposes
-export const WEBSITE_NAME: string = 'Next Js Blog Template';
+export const WEBSITE_NAME: string = 'Geek Pledge';
 export const WEBSITE_URL: string = 'https://nextjs-simple-blog-template.web.app/';
 
 /**
@@ -77,7 +92,7 @@ export const PRIMARY_NAV: iNavSetup = {
     // },
     logo: {
         type: LogoType.TEXT,
-        logo: 'Next Blog',
+        logo: 'Geek Pledge',
     },
     // navLinks are the main navbar links that apper on top of every page
     navLinks: [
@@ -142,6 +157,7 @@ export const PRIMARY_NAV: iNavSetup = {
             path: '/contact-us'
         }
     ],
+    /*
     socials: [
         {
             link: 'https://www.facebook.com/',
@@ -155,7 +171,7 @@ export const PRIMARY_NAV: iNavSetup = {
             link: 'https://twitter.com/WebExpe',
             icon: <AiOutlineTwitter />
         },
-    ]
+    ]*/
 }
 
 export const DEFAULT_SEO: iSEO = {
